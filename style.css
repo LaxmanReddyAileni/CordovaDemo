@@ -1,0 +1,15 @@
+.hide {
+    position:absolute;
+    top:-1px;
+    left:-1px; 
+    width:1px; 
+    height:1px; 
+}
+#upload,#refresh{
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: darkgray 3px 3px 5px;
+}
+
