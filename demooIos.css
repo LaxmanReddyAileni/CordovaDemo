@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2020, 1:55:03 PM
+    Author     : home
+*/
+
+body{/*Default IOS font and generic font-family */
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    background-color: white;
+}
+#navbar{
+    background-color: white;   
+    color: black;
+}
+button{
+    border:none;
+    background-color: white;
+    color: #0080ff;                /*Default Blue in IOS*/
+}
+#instructions,#map{
+    border-radius: 10px;
+    background-color: white;
+    border: 1px #dddddd solid;  /*light grey*/
+}
+#gotIt{
+    background-color: #0080ff;
+    color:white;
+    border-radius: 5px;
+}

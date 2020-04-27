@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link type="text/css" rel="stylesheet" href="demoo.css"/>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjv6FcbJRJNQxSHHzO9f_BZNMya4JxBHk&libraries=places"></script>
+        <script type="text/javascript" src="demoo.js" ></script>
+        <script type="text/javascript" src="cordova.js" ></script>
+        <script type="text/javascript" src="UploadAction.js" ></script>
+        <style>
+            .horizontal-center {
+                margin: 0;
+                position: absolute;
+                left:30%;
+            }
+        </style>
+    </head>
+    <body onLoad="init()">
+      
+            <div id="navbar">  
+                <button id="park" onClick="SLocation()">Location</button>
+                Demo
+                <button id="retrieve" onClick="getLocation()">Close Map</button>
+            </div>
+
+            <div id="container">
+                <div id="map"></div>
+                <iframe name="hiddenFrame" class="hide">  </iframe>
+                <form id="form" action="" method="get"  target="_blank">                
+                    <label for="myfile" class="horizontal-center" ><b>Select a file:</b></label><br>
+                    <input type="file" id="myfile" name="myfile" class="horizontal-center" multiple><br><br>           <!--myfile is assigned to uploaded file-->
+                    <button id="upload" onClick="check()" class="horizontal-center">Upload</button><br><br>   
+                </form>
+                <button id="refresh" onClick="refresh()" class="horizontal-center">Refresh</button>
+            </div>
+        
+    </body>
+</html>

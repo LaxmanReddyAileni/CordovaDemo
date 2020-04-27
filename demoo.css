@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2020, 1:51:59 PM
+    Author     : home
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 7, 2020, 8:43:05 AM
+    Author     : home
+*/
+body{
+    font-size: 16pt;
+}
+#navbar{
+    width:100%;
+    padding: 10px 0x;
+    font-size: 1.4em;
+    text-align: center;
+    position: fixed;  /*This means that it is visible all time*/
+    top: 0px;
+    left:0px;
+    z-index: 10;
+     background-color: #2196f3;   /*this is taken fro Material.io*/
+    color: white;
+    box-shadow: darkgray 3px 3px 5px;
+}
+#park{
+    float:left;
+}
+#retrieve{
+    float:right;
+}
+button{
+    padding: 5px 10px;
+    margin: 0px 15px;
+    font-size: large;
+        color: white;
+     background-color: #2196f3;
+     box-shadow: darkgray 3px 3px 5px;
+}
+#container{
+    position: absolute;  
+    top:60px;/*to beneath the nav bar*/
+    left:0px;
+    width: 100%;
+}
+#map{
+    position: relative;
+    height: 320px;
+    width:90%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 0px 10px;
+    visibility: hidden;/*When we click one of the buttons we display the map*/
+}
+
+
